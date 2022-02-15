@@ -17,7 +17,7 @@ self.predict_on_data()
 Prediction of the unlabeled dataset using RC and RSN to obtain the next pair of entities to be remotely supervised
 
 self.eval(label)
-Testing the relation classifier on an unlabeled dataset
+Testing the relation classifier on an unlabeled dataset.
 
 self.Candidate_Set :pd.DataFrame
 Use Baidu search to find sentences with the same entity pair and calculate a score with RSN
